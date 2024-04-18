@@ -1,36 +1,15 @@
-name: vc_product_widgets
-publish_to: none
-
+name: vc_product_views
+description: A new Flutter package project.
 version: 0.0.1
 homepage:
 
 environment:
-  sdk: ">=3.1.2 <4.0.0"
+  sdk: '>=3.1.2 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
-  table_calendar: ^3.0.9
-  intl: ^0.18.1
-  file_picker: ^6.1.1
-  image_picker: ^1.0.5
-  flutter_svg: ^2.0.9
-  url_launcher: ^6.2.4
-  expandable_page_view: ^1.0.17
-  webview_flutter: ^4.7.0
-
   flutter:
     sdk: flutter
-  google_maps_flutter: ^2.5.0
-  flutter_html: ^3.0.0-beta.2
-  safe_device: ^1.1.6
-  hive_flutter: ^1.1.0
-  fl_chart: ^0.66.0
-
-  vc_product_network:
-    path: ../vc_product_network
-  camera: ^0.10.5+9
-  google_mlkit_barcode_scanning: ^0.10.0
-  geolocator: ^10.1.1
 
 dev_dependencies:
   flutter_test:
@@ -43,9 +22,6 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
-
-  assets:
-    - assets/icons/
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
